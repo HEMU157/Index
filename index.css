@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.title p span {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.title p:last-child {
+    margin-bottom: 40px;
+}
+
+.inner-con {
+    width: 495px;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 140px;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: #06444F;
+    color: white;
+}
+
+.inner-body {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.g-logo img {
+    width: 10px;
+    height: 15px;
+}
+
+.inner-name {
+    font-size: 17px;
+    width: 88px;
+    height: 34px;
+}
+
+.rate {
+    font-size: 40px;
+    color: #BBEF30;
+    display: flex;
+}
+
+.rate sub {
+    align-self: flex-end;
+    font-size: 20px;
+}
+
+.button-div button {
+    width: 100px;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: #BBEF30;
+    font-size: 16px;
+}
+
+button span {
+    padding-left: 10px;
+}
+
+table {
+    font-family: Poppins-light;
+    margin-top: 20px;
+    letter-spacing: -0.5px;
+    width: 495px;
+    border-collapse: separate;
+    font-size: 15px;
+    border-width: 0;
+    border-spacing: 0;
+    margin-bottom: 40px;
+}
+table tr:first-child{
+
+    background-color: #BBEF30;
+}
+
+table tr:first-child th:first-child{
+    border-top-left-radius: 30px;
+}
+table tr:first-child th:last-child{
+    border-top-right-radius: 30px;
+}
+
+table tr:last-child td:first-child{
+    border-bottom-left-radius: 30px;
+}
+table tr:last-child td:last-child{
+    border-bottom-right-radius: 30px;
+}
+
+table tr:not(:first-child):nth-child(odd) {
+    background-color: #F1F0F0; /* Change the background color as needed */
+}
+
+table tr {
+    height: 70px;
+    padding: 10px 45px;
+}
+
+table td, th {
+    padding: 10px 45px;
+}
